@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="yxts.RealBattlePage">
+    <ContentPage.Content>
+        <StackLayout Margin="30, 30, 30, 0">
+            <StackLayout>
+                <Grid BackgroundColor="DodgerBlue">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <StackLayout Grid.Column="0" Grid.Row="0" x:Name="EnemyField1" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="0" Grid.Row="1" x:Name="EnemyField2" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="0" Grid.Row="2" x:Name="EnemyField3" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="1" Grid.Row="0" x:Name="EnemyField4" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="1" Grid.Row="1" x:Name="EnemyField5" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="1" Grid.Row="2" x:Name="EnemyField6" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="2" Grid.Row="0" x:Name="EnemyField7" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="2" Grid.Row="1" x:Name="EnemyField8" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="2" Grid.Row="2" x:Name="EnemyField9" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="3" Grid.Row="0" x:Name="EnemyField10" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="3" Grid.Row="1" x:Name="EnemyField11" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="3" Grid.Row="2" x:Name="EnemyField12" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="4" Grid.Row="0" x:Name="EnemyField13" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="4" Grid.Row="1" x:Name="EnemyField14" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="4" Grid.Row="2" x:Name="EnemyField15" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="5" Grid.Row="0" x:Name="EnemyField16" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="5" Grid.Row="1" x:Name="EnemyField17" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="5" Grid.Row="2" x:Name="EnemyField18" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+            <StackLayout BackgroundColor="Red" HeightRequest="30">
+
+            </StackLayout>
+            <StackLayout>
+                <Grid BackgroundColor="DodgerBlue">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <StackLayout Grid.Column="0" Grid.Row="0" x:Name="PlayerField1" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="0" Grid.Row="1" x:Name="PlayerField2" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="0" Grid.Row="2" x:Name="PlayerField3" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="1" Grid.Row="0" x:Name="PlayerField4" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="1" Grid.Row="1" x:Name="PlayerField5" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="1" Grid.Row="2" x:Name="PlayerField6" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="2" Grid.Row="0" x:Name="PlayerField7" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="2" Grid.Row="1" x:Name="PlayerField8" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="2" Grid.Row="2" x:Name="PlayerField9" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="3" Grid.Row="0" x:Name="PlayerField10" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="3" Grid.Row="1" x:Name="PlayerField11" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="3" Grid.Row="2" x:Name="PlayerField12" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="4" Grid.Row="0" x:Name="PlayerField13" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="4" Grid.Row="1" x:Name="PlayerField14" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="4" Grid.Row="2" x:Name="PlayerField15" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="5" Grid.Row="0" x:Name="PlayerField16" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="5" Grid.Row="1" x:Name="PlayerField17" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                    <StackLayout Grid.Column="5" Grid.Row="2" x:Name="PlayerField18" BackgroundColor="Beige" WidthRequest="45" HeightRequest="45">
+                    
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+         </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

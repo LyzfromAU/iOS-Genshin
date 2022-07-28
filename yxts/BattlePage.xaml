@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="yxts.BattlePage">
+    <ContentPage.Content>
+        <StackLayout Margin="30, 30, 30, 0">
+            <StackLayout>
+                <Button Text="Return To Home Page" Clicked="ReturnToHomePage"></Button>
+                <Button Text="Pull" Clicked="ToPull"></Button>
+            </StackLayout>
+            <StackLayout x:Name="Pull1" Orientation="Horizontal">
+                <StackLayout BackgroundColor="CornflowerBlue" WidthRequest="100" HeightRequest="100">
+                    <Label x:Name="Card1Name" HorizontalTextAlignment="Center" FontSize="Large" Margin="0, 10, 0, 0" FontAttributes="Bold"></Label>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                        <Label x:Name="Card1Ele" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="Card1Price" HorizontalTextAlignment="Center"></Label>
+                    </StackLayout>
+                    <Button Text="购买" FontSize="Medium" Margin="0, -10, 0, 0" TextColor="WhiteSmoke" Clicked="BuyPos1"></Button>
+                </StackLayout>
+                <StackLayout BackgroundColor="CornflowerBlue" WidthRequest="100" HeightRequest="100">
+                    <Label x:Name="Card2Name" HorizontalTextAlignment="Center" FontSize="Large" Margin="0, 10, 0, 0" FontAttributes="Bold"></Label>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                        <Label x:Name="Card2Ele" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="Card2Price" HorizontalTextAlignment="Center"></Label>
+                    </StackLayout>
+                    <Button Text="购买" FontSize="Medium" Margin="0, -10, 0, 0" TextColor="WhiteSmoke" Clicked="BuyPos2"></Button>
+                </StackLayout>
+                <StackLayout BackgroundColor="CornflowerBlue" WidthRequest="100" HeightRequest="100">
+                    <Label x:Name="Card3Name" HorizontalTextAlignment="Center" FontSize="Large" Margin="0, 10, 0, 0" FontAttributes="Bold"></Label>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                        <Label x:Name="Card3Ele" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="Card3Price" HorizontalTextAlignment="Center"></Label>
+                    </StackLayout>
+                    <Button Text="购买" FontSize="Medium" Margin="0, -10, 0, 0" TextColor="WhiteSmoke" Clicked="BuyPos3"></Button>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout x:Name="Pull2" Orientation="Horizontal">
+                <StackLayout BackgroundColor="CornflowerBlue" WidthRequest="100" HeightRequest="100">
+                    <Label x:Name="Card4Name" HorizontalTextAlignment="Center" FontSize="Large" Margin="0, 10, 0, 0" FontAttributes="Bold"></Label>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                        <Label x:Name="Card4Ele" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="Card4Price" HorizontalTextAlignment="Center"></Label>
+                    </StackLayout>
+                    <Button Text="购买" FontSize="Medium" Margin="0, -10, 0, 0" TextColor="WhiteSmoke" Clicked="BuyPos4"></Button>
+                </StackLayout>
+                <StackLayout BackgroundColor="CornflowerBlue" WidthRequest="100" HeightRequest="100">
+                    <Label x:Name="Card5Name" HorizontalTextAlignment="Center" FontSize="Large" Margin="0, 10, 0, 0" FontAttributes="Bold"></Label>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                        <Label x:Name="Card5Ele" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="Card5Price" HorizontalTextAlignment="Center"></Label>
+                    </StackLayout>
+                    <Button Text="购买" FontSize="Medium" Margin="0, -10, 0, 0" TextColor="WhiteSmoke" Clicked="BuyPos5"></Button>
+                </StackLayout>
+                <StackLayout BackgroundColor="CornflowerBlue" WidthRequest="100" HeightRequest="100">
+                    <Label x:Name="Card6Name" HorizontalTextAlignment="Center" FontSize="Large" Margin="0, 10, 0, 0" FontAttributes="Bold"></Label>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                        <Label x:Name="Card6Ele" HorizontalTextAlignment="Center"></Label>
+                        <Label x:Name="Card6Price" HorizontalTextAlignment="Center"></Label>
+                    </StackLayout>
+                    <Button Text="购买" FontSize="Medium" Margin="0, -10, 0, 0" TextColor="WhiteSmoke" Clicked="BuyPos6"></Button>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

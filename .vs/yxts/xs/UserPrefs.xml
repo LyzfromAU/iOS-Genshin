@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{1B46471B-024C-4B2B-A82C-A786B773D33A}|Default">
+  <MonoDevelop.Ide.ItemProperties.yxts.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8D234294-3BF7-4E37-BDDB-3C0A07151B66" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="yxts/BattlePage.xaml.cs">
+    <Files>
+      <File FileName="yxts/MainPage.xaml.cs" Line="45" Column="27" />
+      <File FileName="yxts/Data/ChessProperties.cs" Line="1" Column="1" />
+      <File FileName="yxts/BattlePage.xaml" Line="61" Column="118" />
+      <File FileName="yxts/BattlePage.xaml.cs" Line="38" Column="16" />
+      <File FileName="yxts/Controller/BoardController.cs" />
+      <File FileName="yxts/RealBattlePage.xaml" Line="153" Column="10" />
+      <File FileName="yxts/RealBattlePage.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="yxts" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.yxts.Android FirstBuild="True" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+</Properties>

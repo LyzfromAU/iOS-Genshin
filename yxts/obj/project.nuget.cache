@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "u2jJBpzhWVsJSpdCarfwOkZ+PZhNJ7XBV0L+vQHJK0ZyEK9utfuq8KhE2ANa5t0oQLEABtLgsxXqn1/TDLGl7g==",
+  "success": true,
+  "projectFilePath": "/Users/yazhou/Projects/yxts/yxts/yxts.csproj",
+  "expectedPackageFiles": [
+    "/Users/yazhou/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/yazhou/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/yazhou/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/yazhou/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/yazhou/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
