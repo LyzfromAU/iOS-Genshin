@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using yxts.Data;
@@ -12,6 +13,8 @@ namespace yxts
             InitializeComponent();
 
             MainPage = new MainPage();
+
+            AtHand = new List<AtHandProperties>();
 
             playerBoard = new PlayerBoard
             {
@@ -49,5 +52,6 @@ namespace yxts
         {
         }
         public static PlayerBoard playerBoard { get; set; }
+        public static List<AtHandProperties> AtHand { get; set; }
     }
 }

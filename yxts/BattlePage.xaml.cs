@@ -24,7 +24,105 @@ namespace yxts
         }
         private void BuyPos1(object sender, EventArgs e)
         {
+            App.AtHand.Add(new AtHandProperties{
+                Name = Card1Name.Text,
+                Element = Card1Ele.Text,
+                Attack = Data.Chessess.GetChesses().Find(x => x.Name == Card1Name.Text).Attack,
+                Ultimate = Data.Chessess.GetChesses().Find(x => x.Name == Card1Name.Text).Ultimate,
+                Price = Data.Chessess.GetChesses().Find(x => x.Name == Card1Name.Text).Price,
+                Country = Data.Chessess.GetChesses().Find(x => x.Name == Card1Name.Text).Country,
+                IsGod = Data.Chessess.GetChesses().Find(x => x.Name == Card1Name.Text).IsGod,
+                Star = 1
+            });
+            ShowAtHandPool();
+        }
 
+        private void BuyPos2(object sender, EventArgs e)
+        {
+            App.AtHand.Add(new AtHandProperties
+            {
+                Name = Card2Name.Text,
+                Element = Card2Ele.Text,
+                Attack = Data.Chessess.GetChesses().Find(x => x.Name == Card2Name.Text).Attack,
+                Ultimate = Data.Chessess.GetChesses().Find(x => x.Name == Card2Name.Text).Ultimate,
+                Price = Data.Chessess.GetChesses().Find(x => x.Name == Card2Name.Text).Price,
+                Country = Data.Chessess.GetChesses().Find(x => x.Name == Card2Name.Text).Country,
+                IsGod = Data.Chessess.GetChesses().Find(x => x.Name == Card2Name.Text).IsGod,
+                Star = 1
+            });
+        }
+        private void BuyPos3(object sender, EventArgs e)
+        {
+            App.AtHand.Add(new AtHandProperties
+            {
+                Name = Card3Name.Text,
+                Element = Card3Ele.Text,
+                Attack = Data.Chessess.GetChesses().Find(x => x.Name == Card3Name.Text).Attack,
+                Ultimate = Data.Chessess.GetChesses().Find(x => x.Name == Card3Name.Text).Ultimate,
+                Price = Data.Chessess.GetChesses().Find(x => x.Name == Card3Name.Text).Price,
+                Country = Data.Chessess.GetChesses().Find(x => x.Name == Card3Name.Text).Country,
+                IsGod = Data.Chessess.GetChesses().Find(x => x.Name == Card3Name.Text).IsGod,
+                Star = 1
+            });
+        }
+        private void BuyPos4(object sender, EventArgs e)
+        {
+            App.AtHand.Add(new AtHandProperties
+            {
+                Name = Card4Name.Text,
+                Element = Card4Ele.Text,
+                Attack = Data.Chessess.GetChesses().Find(x => x.Name == Card4Name.Text).Attack,
+                Ultimate = Data.Chessess.GetChesses().Find(x => x.Name == Card4Name.Text).Ultimate,
+                Price = Data.Chessess.GetChesses().Find(x => x.Name == Card4Name.Text).Price,
+                Country = Data.Chessess.GetChesses().Find(x => x.Name == Card4Name.Text).Country,
+                IsGod = Data.Chessess.GetChesses().Find(x => x.Name == Card4Name.Text).IsGod,
+                Star = 1
+            });
+        }
+        private void BuyPos5(object sender, EventArgs e)
+        {
+            App.AtHand.Add(new AtHandProperties
+            {
+                Name = Card5Name.Text,
+                Element = Card5Ele.Text,
+                Attack = Data.Chessess.GetChesses().Find(x => x.Name == Card5Name.Text).Attack,
+                Ultimate = Data.Chessess.GetChesses().Find(x => x.Name == Card5Name.Text).Ultimate,
+                Price = Data.Chessess.GetChesses().Find(x => x.Name == Card5Name.Text).Price,
+                Country = Data.Chessess.GetChesses().Find(x => x.Name == Card5Name.Text).Country,
+                IsGod = Data.Chessess.GetChesses().Find(x => x.Name == Card5Name.Text).IsGod,
+                Star = 1
+            });
+        }
+        private void BuyPos6(object sender, EventArgs e)
+        {
+            App.AtHand.Add(new AtHandProperties
+            {
+                Name = Card6Name.Text,
+                Element = Card6Ele.Text,
+                Attack = Data.Chessess.GetChesses().Find(x => x.Name == Card6Name.Text).Attack,
+                Ultimate = Data.Chessess.GetChesses().Find(x => x.Name == Card6Name.Text).Ultimate,
+                Price = Data.Chessess.GetChesses().Find(x => x.Name == Card6Name.Text).Price,
+                Country = Data.Chessess.GetChesses().Find(x => x.Name == Card6Name.Text).Country,
+                IsGod = Data.Chessess.GetChesses().Find(x => x.Name == Card6Name.Text).IsGod,
+                Star = 1
+            });
+        }
+        public void ShowAtHandPool()
+        {
+            AtHandPool.Children.Clear();
+            foreach (var atHand in App.AtHand)
+            {
+                var btn = new Button()
+                {
+                    Text = $"{atHand.Name}({atHand.Element})({atHand.Star})"
+                };
+                btn.Clicked += OnDynamicBtnClicked;
+                AtHandPool.Children.Add(btn);
+            }
+        }
+        private void OnDynamicBtnClicked(object sender, EventArgs e)
+        {
+            var myBtn = sender as Button;
         }
 
         private void ToPull(object sender, EventArgs e)
